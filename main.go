@@ -2,8 +2,8 @@ package main
 
 import (
     "fmt"
-    "web-scraper-security/config"
-    "web-scraper-security/crawler"
+    "web-scrapper/config"
+    "web-scrapper/crawler"
 )
 
 func main() {

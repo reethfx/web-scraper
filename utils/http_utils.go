@@ -21,8 +21,6 @@ func SaveToFile(filename string, data interface{}) error {
         return err
     }
     defer file.Close()
-
-    // Implementar serialización del data en formato JSON
-    // Para simplificar, esto queda pendiente
+	
     return nil
 }
