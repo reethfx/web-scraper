@@ -24,7 +24,7 @@ func crawl(url string, depth int, cfg config.Config, client *http.Client, visite
 	}
 
 	visited[url] = true
-	fmt.Println("Visitando:", url)
+	fmt.Println("Checking :", url)
 
 	resp, err := utils.FetchURL(client, url)
 	if err != nil {
